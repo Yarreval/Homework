@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS Dinner Shopping List</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
-		rel="stylesheet">
+	<title>Document</title>
 </head>
-
 <body>
-	<header>
-		<h1>CSS Dinner Shopping List</h1>
-		<p>Let s go to the mall!</p>
-	</header>
-	<main>
-		<ul id="chekboxing">
-			<li><label><input type="checkbox" name="object" class="pickles">A lot of pickles (for the next lessons about CSS) </label></li>
-			<li><label><input type="checkbox" name="object" id="apples">10a apples  (for more CSS manipulations)</label></li>
-			<li><label><input type="checkbox" name="object" id="oranges">20 oranges  (because they are awesome)</label></li>
-			<li><label><input type="checkbox" name="object" id="plates">13 plates  (hm... they always dissapear)</label></li>
-			<li><label><input type="checkbox" name="object" id="bentos">15 bentos</label></li>
-			<li><label><input type="checkbox" name="object" id="sake">1 bottle of Sake  (for my friends)</label></li>
-		</ul>
-	</main>
-
-
-	<footer>Bon appetit :)</footer>
-
+	<ul class="list">
+		<li class="list-item">
+			<input type="checkbox" class="hidden-box" id="first" checked/>
+			<label for="first" class="check--label">
+				<span class="check--label-box"></span>
+				<span class="check--label-text">First Checkbox</span>
+			</label>
+		</li>
+		<li class="list-item">
+			<input type="checkbox" class="hidden-box" id="second" />
+			<label for="second" class="check--label">
+				<span class="check--label-box"></span>
+				<span class="check--label-text">Second Checkbox</span>
+			</label>
+		</li>
+		<li class="list-item">
+			<input type="checkbox" class="hidden-box" id="third" />
+			<label for="third" class="check--label">
+				<span class="check--label-box"></span>
+				<span class="check--label-text">Third Checkbox</span>
+			</label>
+		</li>
+	</ul>
 </body>
-
 </html>

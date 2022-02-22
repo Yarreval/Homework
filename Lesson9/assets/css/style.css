@@ -51,57 +51,69 @@ transition: opacity .3s;
 outline: 2.5px solid white;
 }
 
+.quarter-width {
+	width: 25%;
+}
+
+.half-width {
+	width: 50%
+}
+
+.full-width {
+	width: 100%;
+}
+
 .lisbon {
 background-color: #3399CC;
-width: 50%;
+
 }
 
 .paris {
 background-color: #33CCCC;
-width: 25%;
+
 }
 
 .belgrade {
 background-color: #996699;
-width: 25%;
+
 }
 
 .venice {
 background-color: #C24747;
-width: 25%;
+
 }
 
 .telaviv {
 background-color: #E2674A;
-width: 25%;
+
 }
 
 .kyiv {
 background-color: #FFCC66;
-width: 25%;
+
 }
 
 .amsterdam {
 background-color: #99CC99;
-width: 25%;
+
 }
 
 .tokyo {
 background-color: #669999;
-width: 25%;
+
 }
 
 .sanfranco {
 background-color: #CC6699;
-width: 50%;
+
 }
 
 .sydney {
 background-color: #339966;
-width: 25%;
+
 }
 
 .newdelhi {
 background-color: #666699;
-width: 100%;
+
 }

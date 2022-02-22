@@ -1,111 +1,107 @@
-:root {
-	--text-color: #544837;
-	--orange: #FF9900;
-}
-
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-	width: 100%;
-}
-
-header {
-	padding: 35px;
-}
-
-body {
-	font-family: 'Poppins', sans-serif;
-	color: var(--text-color);
-	font-size: 1rem;
+box-sizing: border-box;
 }
 
 .container {
-	max-width: 1110px;
-	margin: 0 auto;
-	width: 90%;
+max-width: 832px;
+margin: 0 auto;
+border: 2.5px solid #fff;
+width: 90%;
+font-size: 0;
 }
 
-.clrfix:after {
-	content: "";
-	display: block;
-	clear: both;
-	
+html, body {
+font-family: 'Roboto', sans-serif;
+height: 100%;
+margin: 0;
+padding: 0;
 }
 
-#logo {
-	float: left;
-	margin-top: 8px;
+p {
+font-size: 16px;
 }
 
-.btn_wrap {
-	float: right;
-	margin-left: 30px;
-	text-align: right;
+i {
+font-size: 18px;
+vertical-align: bottom;
 }
 
-.main_menu {
-	float: right;
+.wrapper {
+background-color: #3399CC;
+border: 15px solid #2B81AC;
+height: 100%;
 }
 
-.main_menu ul {
-	list-style: none;
-	text-align: right;
+.container>div {
+display: inline-block;
+text-align: center;
+font-size: 1rem;
+padding-top: 20px;
+color: #fff;
+box-shadow: inset 0 0 0 1px white;
 }
 
-.main_menu ul li {
-	display: inline-block;
+.container:hover>div {
+opacity: .25; 
 }
 
-.main_menu ul li a {
-	color: #2f281e;
-	font-size: 14px;
-	line-height: 28px;
-	margin: 0 12px;
-	text-decoration: none;
+.container>div:hover {
+opacity: 1;
+transition: opacity .3s;
+outline: 2.5px solid white;
 }
 
-.main_menu ul li a:hover,
-.main_menu ul li a:active {
-	text-decoration: none;
-	color: var(--orange);
+.lisbon {
+background-color: #3399CC;
+width: 50%;
 }
 
-.btn_wrap .btn:first-child {
-	margin-right: 14px;
+.paris {
+background-color: #33CCCC;
+width: 25%;
 }
 
-.btn {
-	display: inline-block;
-	cursor: pointer;
-	padding: 0 41px;
-	font-size: 16px;
-	height: 53px;
-	line-height: 53px;
-	font-weight: 700;
-	border-radius: 4px;
-	transition: all .2s ease;
+.belgrade {
+background-color: #996699;
+width: 25%;
 }
 
-header .btn {
-	padding: 0 24px;
-	height: 46px;
-	line-height: 46px;
-	font-weight: 600;
+.venice {
+background-color: #C24747;
+width: 25%;
 }
 
-.btn.white {
-	background-color: white;
-	color: var(--text-color);
-	border: 1px solid #BCD0E5;
+.telaviv {
+background-color: #E2674A;
+width: 25%;
 }
 
-.btn.orange {
-	background-color: #FF9900;
-	color: white;
-	border: 1px solid #BCD0E5;
+.kyiv {
+background-color: #FFCC66;
+width: 25%;
+}
+
+.amsterdam {
+background-color: #99CC99;
+width: 25%;
+}
+
+.tokyo {
+background-color: #669999;
+width: 25%;
+}
+
+.sanfranco {
+background-color: #CC6699;
+width: 50%;
+}
+
+.sydney {
+background-color: #339966;
+width: 25%;
+}
+
+.newdelhi {
+background-color: #666699;
+width: 100%;
 }

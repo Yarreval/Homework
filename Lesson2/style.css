@@ -1,0 +1,44 @@
+body {
+	margin: 2em;
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 18px;
+	background-color: rgb(240, 240, 232);
+}
+
+h1, h3 {
+	color: blue;
+	margin-bottom: 0.2em;
+}
+
+h2 {
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+p {
+	text-align: left;
+}
+
+.contact {
+	margin-bottom: 2em;
+	margin-top: 2em;
+	color: blue
+}
+
+.expierence_date {
+	min-width: 185px;
+}
+
+.expierence_name {
+	font-weight: bold;
+}
+
+.expierence_company {
+	text-align: center;
+	font-style: oblique;
+}
+
+section {
+	margin-bottom: 3em;
+}

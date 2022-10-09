@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="forms">
+	<form method="post" action="#">
+		<label for="user_name">Повне ім'я</label>
+		<input type="text" name="name" id="user_name" required placeholder="">
+		<br><br>
+		<label for="user_email">Ваш емейл</label>
+		<input type="email" name="email" id="user_email" required placeholder="">
+		<br><br>
+		<label for="user_password">Ваш пароль</label>
+		<input type="password" id="user_password" required placeholder="">
+		<br><br>
+		<label for="user_password2">Пароль ще раз</label>
+		<input type="password" id="user_password2" required placeholder="">
+		<br><br>
+		<ul class="gender"> Стать
+			<li>
+				<label>
+					<input type="radio" name="gender" value="man" required> Чоловік
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="radio" name="gender" value="women" required> Жінка
+				</label>
+			</li>
+			</ul>
+			<br>
+			<label for="age">Ваш вік</label>
+			<input type="text" name="age" id="user_age">
+			<br><br>
+			<label for="curses">Курс</label>
+			<select name="curse" id="curses" required>
+				<option value="">-=Виберіть курс=-</option>
+				<option value="Front-End">Front-End</option>
+				<option value="Back-End">Back-End</option>
+				<option value="Project-Management">Project Management</option>
+				<option value="QA-Manual">QA Manual</option>
+			</select>
+			<br><br>
+			<label for="user_adress">Ваша адреса</label>
+			<textarea rows="3" cols="20" name="user_adress" placeholder="Країна, регіон, місто, селище, вулиця">
+			</textarea>
+			<br><br>
+			</div>
+			<label>
+				<input type="checkbox" name="legacy" value="women" required> Я погоджуюся з обробкою даних
+			</label>
+			<br><br>
+			<button type="reset">Очистити пароль</button>
+			<button type="submit">Зареєструватися</button>
+	</form>
+
+
+
+</body>
+
+</html>

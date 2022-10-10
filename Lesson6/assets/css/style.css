@@ -11,7 +11,7 @@ li {
 
 .gender {
   display: flex;
-  flex-direction: row;
+	
 	}
 
 .forms label {
@@ -20,3 +20,4 @@ li {
   width: 170px;
   height: 15px;
 }
+

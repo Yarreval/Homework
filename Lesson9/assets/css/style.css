@@ -43,6 +43,11 @@ html, body {
 
 a {
 	text-decoration: none;
+	color: #2F281E;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 li {
@@ -68,7 +73,16 @@ li {
 
 .btn_white{
 	background-color: #FFffff;
-	
+}
+
+.btn_white:hover {
+	background-color: #FF9900;
+	color: #FFffff;
+}
+
+.btn_orange:hover {
+	background-color: #FFffff;
+	color: black;
 }
 
 .button button:hover {

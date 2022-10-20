@@ -40,8 +40,6 @@ body {
 
 input[type="checkbox"]:checked + span {
 text-decoration: line-through;
-
-
 }
 
 small {
@@ -53,7 +51,6 @@ label {
 	display: inline-block;
 	font-size: 18px;
 }
-
 
 .list {
 	padding-top: 20px;

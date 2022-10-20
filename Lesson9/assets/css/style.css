@@ -11,6 +11,7 @@ html, body {
 	line-height: 28px;
 	font-size: 16px;
 	background-color: #fff;
+	font-weight: 700;
 }
 
 .wrap {
@@ -28,6 +29,10 @@ html, body {
 a {
 	text-decoration: none;
 	color: #2F281E;
+}
+
+a:hover {
+	color: #FF9900;
 }
 
 button:hover {
@@ -93,12 +98,18 @@ li {
 }
 
 h1 {
-	font-weight: 700;
 	font-size: 44px;
 	line-height: 54px;
 	color: #2F281E;
 	letter-spacing: 0.075rem;
 	margin-bottom: 31px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #2F281E;
 }
 
 p {
@@ -121,8 +132,3 @@ p {
 .first_image {
 	padding-top: 14px;
 }
-
-
-
-
-

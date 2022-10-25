@@ -22,18 +22,21 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 17px;
+	
 }
 
 .container {
 	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
+	
 }
 
 .container_inner {
 	width: 90%;
 	max-width: 1440px;
 	margin: 0 auto;
+	
 }
 
 a {
@@ -109,11 +112,13 @@ button {
 .content {
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .content_inner {
 	display: flex;
 	justify-content: center;
+	
 }
 
 .title {
@@ -141,7 +146,6 @@ h2 {
 	line-height: 44px;
 	text-align: center;
 	color: #2F281E;
-
 }
 
 h3 {
@@ -170,12 +174,13 @@ p {
 .first_screen {
 	margin-top: 70px;
 	margin-bottom: -19px;
+
+	
 }
 
 .first_image {
 	padding-top: 14px;
 }
-
 
 .cards p {
 	font-weight: 500;
@@ -200,10 +205,11 @@ p {
  .second {
 	display: block;
 	margin: 0 auto;
-	background-color: red;
 }
 
 .second_screen {
+	
 	background-image: url(../images/bg.jpg) ;
 
 }
+

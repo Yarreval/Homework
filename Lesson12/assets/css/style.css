@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Delius Unicase', cursive;
+}
+
+.container {
+	width: 90;
+	max-width: 1170px;
+	margin: 0 auto;
+	
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr;
+	grid-template-rows: 1fr 3fr;
+	gap: 30px;
+}
+
+.item {
+	border: 2px solid red;
+}
+
+.item_4 {
+	grid-column: 3fr;
+}
+/* .cities_works,
+.nature_works,
+.people {
+	display: grid;
+	gap: 30px;
+}
+
+
+.first {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 30px;
+}
+
+
+.second {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 30px;
+}
+
+.third {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 30px;
+}
+
+.images_first {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+}
+
+.images_second {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 30px;
+}
+
+h2 {
+	margin-top: 120px;
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 36px;
+	line-height: 45px;
+	letter-spacing: 0.11rem;
+}
+
+.nature_works h2,
+.people h2 {
+	margin-bottom: 50px;
+}
+
+
+ */
+

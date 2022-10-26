@@ -111,7 +111,6 @@ button {
 .content {
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .content_inner {
@@ -218,8 +217,7 @@ p {
 }
 
 .second_screen {
-
-	background-image: url(../images/bg.jpg);
+background-image: url(../images/bg.png);
 
 }
 

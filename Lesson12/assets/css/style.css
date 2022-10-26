@@ -51,6 +51,12 @@ h2 {
 	grid-template-rows: repeat(5, 1fr);
 	column-gap: 30px;
 	row-gap: 26px;
+	padding-bottom: 120px;
+}
+
+.container img {
+	border-radius: 20px;
+	overflow: hidden;
 }
 
 .item2 {

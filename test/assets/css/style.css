@@ -7,10 +7,12 @@
 html, body {
 	width: 100%;
 	height: 100%;
+}
+
+body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 28px;
 	font-size: 16px;
-	background-color: #fff;
 }
 
 .container {
@@ -19,91 +21,44 @@ html, body {
 	margin: 0 auto;
 }
 
-.content {
-	display: flex;
-	gap: 130px;
-	justify-content: flex-start;
-}
-
-a {
-	text-decoration: none;
-}
-
-button:hover {
-	cursor: pointer;
-}
-
-.orange:hover {
-	background-color: #FFFFFF;
-	color: #2F281E;
-}
-
-.white:hover {
-	background-color: #FF9900;
-	color: #FFFFFF;
-}
-
-li {
-	list-style: none;
-	padding-top: 2px;
-}  
-
-.button {
-	display: flex;
-	max-width: 252px;
-	margin-top: -7px;
-}
-
-.btn {
-	background: #FF9900;
-	color: #FFFFFF;
-	border-radius: 4px;
-	width: 110px;
-	height: 46px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: 0.04rem;
-}
-
-.white {
-	background-color: white;
-	color: #2F281E;
-}
-
-.button .orange {
-	margin-left: 32px;
-}
-
 .items {
-width: 135px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid blue;
+}
+
+.items li {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+background-color: red;
+}
+
+.item1_list {
+	width: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item1_list .item1_list_item {
+	background-color: yellow;
+	width: 20px;
+	height: 20px;
+	
+	display: flex;
+}
+
+.item1 .item1_list2 .item1_list_item2 {
+	background-color: green;
+	width: 20px;
+	height: 20px;
+}
+
+.item1_list2 {
+	width: 120px;
 display: flex;
-
-}
-
-h3 {
-	padding-bottom: 30px;
-}
-
-.descr li{
-	padding-bottom: 15px;
-} 
-
-.form {
-	width: 340px;
-}
-
-.input {
-	margin-top: 25px;
-}
-
-.form input {
-	width: 340px;
-	height: 50px;
-	border: 1px solid #BCD0E5;
-	border-radius: 4px;
-}
-
-.button {
-	margin-top: 25px;
+flex-direction: column;
 }

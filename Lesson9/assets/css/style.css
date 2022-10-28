@@ -210,10 +210,10 @@ p {
 }
 
 .second {
-	display: inline-block;
-	margin-left: 674px;
+	display: block;
+	margin-left: 598px;
 	margin-top: -5px;
-	letter-spacing: 0.015rem;
+	letter-spacing: 0.02rem;
 }
 
 .second_screen {

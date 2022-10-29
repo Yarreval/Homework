@@ -17,6 +17,7 @@ html, body {
 
 .header {
 	margin-top: 13px;
+	margin-bottom: 79px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -24,7 +25,6 @@ html, body {
 
 .navigation {
 	display: flex;
-	margin-top: -3px;
 }
 
 a {
@@ -76,15 +76,29 @@ h2 {
 }
 
 h2 sup {
-	margin-top: -150px;
+	vertical-align: text-top;
 	text-transform: none;
 	font-family: 'Farro';
 	font-style: normal;
 	font-weight: 300;
-	font-size: 16px;
-	line-height: 16px;
+	font-size: 18px;
+	line-height: 18px;
 	letter-spacing: 0.04em;
 	color: #000000;
+	padding-left: 8px;
+
+}
+
+.chapter {
+	margin-bottom: 58px;
+}
+
+.chapter3 {
+	margin-top: 60px;
+}
+
+.chapter3 p {
+	padding-bottom: 29px;
 }
 
 p {
@@ -96,22 +110,18 @@ p {
 	color: #000000;
 }
 
-.chapter3 p {
-	padding-bottom: 29.5px;
-}
-
 .chapter4 p {
-	padding-bottom: 32.5px;
-}
+	padding-bottom: 29.5px;
+} 
 
 .chapter p:last-of-type {
 	padding-bottom: 0;
 }
 
 
-article {
+/* article {
 	padding-top: 80px;
-}
+} */
 
 .underline {
 	text-decoration: underline;
@@ -134,15 +144,11 @@ p.second_pb {
 }
 
 p.third_pb {
-	margin-bottom: -4px;
+	margin-top: 1px;
 }
 
 .gray_bg {
 	background-color: #C9C9C9;
-}
-
-.chapter {
-	margin-bottom: 60px;
 }
 
 .pizza {

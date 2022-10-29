@@ -41,16 +41,16 @@
 
 /* francois-one-regular - latin */
 @font-face {
-  font-family: 'Francois_One';
+  font-family: 'Francois';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Francois_One/francois-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Francois/francois-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/Francois_One/francois-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/Francois_One/francois-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Francois_One/francois-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Francois_One/francois-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Francois_One/francois-one-v20-latin-regular.svg#FrancoisOne') format('svg'); /* Legacy iOS */
+       url('../fonts/Francois/francois-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Francois/francois-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Francois/francois-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Francois/francois-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Francois/francois-one-v20-latin-regular.svg#FrancoisOne') format('svg'); /* Legacy iOS */
 }
 
 /* farro-300 - latin */

@@ -45,6 +45,15 @@ text-decoration: line-through;
 small {
 	font-size: 11px;
 	vertical-align: middle;
+	line-height: 11px;
+}
+
+small::before {
+	content: "(";
+}
+
+small::after {
+	content: ")";
 }
 
 label {

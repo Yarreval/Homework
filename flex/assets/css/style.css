@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	max-width: 936.6px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 100px 0 45px 0;
+}
+
+p {
+	text-align: center;
+	padding-bottom: 78.5px;
+}
+
+.contant {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo, h2 {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 165px;
+}
+
+.image {
+	display: flex;
+	justify-content: space-between;
+}
+
+.white {
+	opacity: .15;
+}

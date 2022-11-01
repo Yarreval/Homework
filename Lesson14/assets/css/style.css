@@ -29,7 +29,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-
 #header h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -40,7 +39,6 @@ body {
   color: #FFCC00;
   margin-bottom: 32px;
 }
-
 #header .header_bottom {
   margin: 0 auto;
   width: 450px;
@@ -48,7 +46,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 #header .header_bottom .yellow_line {
   width: 210px;
   border-top: 2px solid #FC0;
@@ -59,29 +56,24 @@ body {
   max-width: 1030px;
   margin: 0 auto;
 }
-
 .content .sections {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-
 .content .sections .center_line {
   border-left: 1px solid #FFCC00;
   height: 560px;
 }
-
-.content .sections .center_line .left_section .avatar {
+.content .sections .left_section .avatar {
   margin-top: 80px;
   margin-left: 15px;
 }
-
-.content .sections .center_line .left_section .avatar .img {
+.content .sections .left_section .avatar .img {
   width: 400px;
   height: 400px;
 }
-
-.content .sections .center_line .left_section .avatar .border_outline {
+.content .sections .left_section .avatar .border_outline {
   position: relative;
   height: 431px;
   width: 432px;
@@ -91,8 +83,7 @@ body {
   margin-top: -422px;
   margin-left: -15px;
 }
-
-.content .sections .center_line .left_section .avatar .border_outline .top {
+.content .sections .left_section .avatar .border_outline .top {
   position: absolute;
   z-index: 2;
   border-top: 5px solid #fff;
@@ -100,8 +91,7 @@ body {
   top: -3px;
   left: 98px;
 }
-
-.content .sections .center_line .left_section .avatar .border_outline .right {
+.content .sections .left_section .avatar .border_outline .right {
   position: absolute;
   z-index: 2;
   border-right: 5px solid #fff;
@@ -109,8 +99,7 @@ body {
   top: 98px;
   right: -3px;
 }
-
-.content .sections .center_line .left_section .avatar .border_outline .bottom {
+.content .sections .left_section .avatar .border_outline .bottom {
   position: absolute;
   z-index: 2;
   border-bottom: 5px solid #fff;
@@ -118,8 +107,7 @@ body {
   bottom: -3px;
   left: 98px;
 }
-
-.content .sections .center_line .left_section .avatar .border_outline .left {
+.content .sections .left_section .avatar .border_outline .left {
   position: absolute;
   z-index: 2;
   border-left: 5px solid #fff;
@@ -128,11 +116,10 @@ body {
   left: -3px;
 }
 
-.content .right_section {
+.right_section {
   margin-top: 70px;
 }
-
-.content .right_section h2 {
+.right_section h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -141,8 +128,7 @@ body {
   text-align: center;
   color: #666666;
 }
-
-.content .right_section .yellow_line_right {
+.right_section .yellow_line_right {
   margin: 22px auto 29px;
   border-bottom: 1px solid #FFCC00;
   width: 100px;
@@ -150,8 +136,7 @@ body {
   left: 836px;
   top: 331px;
 }
-
-.content .right_section .info p {
+.right_section .info p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -162,23 +147,19 @@ body {
   color: #666666;
   margin-bottom: 23px;
 }
-
-.content .right_section .icons {
+.right_section .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 49px;
 }
-
-.content .right_section .icons a {
+.right_section .icons a {
   text-decoration: none;
 }
-
-.content .right_section .icons a:hover {
+.right_section .icons a:hover {
   opacity: 0.8;
 }
-
-.content .right_section .icons i {
+.right_section .icons i {
   font-size: 14px;
   border: 2px solid #CCCCCC;
   color: #CCCCCC;
@@ -190,12 +171,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.content .right_section .description {
+.right_section .description {
   width: 430px;
 }
-
-.content .right_section .description p {
+.right_section .description p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -204,8 +183,7 @@ body {
   text-align: center;
   color: #333333;
 }
-
-.content .right_section button {
+.right_section button {
   display: flex;
   border: 1px solid #FFCC00;
   width: 118px;
@@ -213,12 +191,10 @@ body {
   margin: 0 auto;
   background-color: white;
 }
-
-.content .right_section button:hover {
+.right_section button:hover {
   background-color: #FFCC00;
 }
-
-.content .right_section .button a {
+.right_section .button a {
   text-decoration: none;
   display: block;
   margin: 5px auto;
@@ -230,20 +206,17 @@ body {
   line-height: 14px;
   color: #666666;
 }
-
-.content .right_section .yellow_line_right_down {
+.right_section .yellow_line_right_down {
   display: flex;
   justify-content: center;
   margin: 15px 0 25px 0;
 }
-
-.content .right_section .yellow_line_right_down .rectangle1 {
+.right_section .yellow_line_right_down .rectangle1 {
   width: 10px;
   height: 4px;
   background: #FFCC00;
 }
-
-.content .right_section .yellow_line_right_down .rectangle2 {
+.right_section .yellow_line_right_down .rectangle2 {
   width: 20px;
   height: 4px;
   background: #FFCC00;

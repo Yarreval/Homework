@@ -180,10 +180,6 @@ body {
 
 		a {
 			text-decoration: none;
-
-			&:hover {
-				opacity: 0.8;
-			}
 		}
 
 		i {
@@ -197,6 +193,22 @@ body {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			&.fa-google-plus-g:hover {
+				color: red;
+				border-color: red;
+			}
+			&.fa-facebook-f:hover {
+				color: blue;
+				border-color: blue;
+			}
+			&.fa-twitter:hover {
+				color: lightblue;
+				border-color: lightblue;
+			}
+			&.fa-linkedin-in:hover {
+				color: rgb(90, 45, 155);
+				border-color: rgb(90, 45, 155);
+			}
 		}
 	}
 

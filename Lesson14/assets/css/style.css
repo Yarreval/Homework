@@ -156,9 +156,6 @@ body {
 .right_section .icons a {
   text-decoration: none;
 }
-.right_section .icons a:hover {
-  opacity: 0.8;
-}
 .right_section .icons i {
   font-size: 14px;
   border: 2px solid #CCCCCC;
@@ -170,6 +167,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.right_section .icons i.fa-google-plus-g:hover {
+  color: red;
+  border-color: red;
+}
+.right_section .icons i.fa-facebook-f:hover {
+  color: blue;
+  border-color: blue;
+}
+.right_section .icons i.fa-twitter:hover {
+  color: lightblue;
+  border-color: lightblue;
+}
+.right_section .icons i.fa-linkedin-in:hover {
+  color: #5a2d9b;
+  border-color: #5a2d9b;
 }
 .right_section .description {
   width: 430px;

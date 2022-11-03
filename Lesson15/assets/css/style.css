@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header {
+	margin-top: 13px;
+	margin-bottom: 79px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation {
+	display: flex;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navigation span {
+	padding: 0 10px;
+	color: #000000;
+	font-family: 'Staatliches';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0.03em;
+}
+
+.navigation a {
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'Staatliches';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0.03em;
+}
+
+.navigation p {
+	font-family: 'Tourney';
+	padding-right: 52px;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 18px;
+	padding-left: 3px;
+	padding-top: 3px;
+	letter-spacing: 0.04em;
+}
+
+h2 {
+	font-family: 'Francois';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #000000;
+	padding-bottom: 39px;
+}
+
+h2 sup {
+	vertical-align: text-top;
+	text-transform: none;
+	font-family: 'Farro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0.04em;
+	color: #000000;
+	padding-left: 8px;
+}
+
+.chapter {
+	margin-bottom: 69px;
+}
+
+.chapter3 {
+	margin-top: 60px;
+}
+
+.chapter3 p {
+	padding-bottom: 34px;
+}
+
+p {
+	font-family: 'PT_Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.chapter4 p {
+	padding-bottom: 29.5px;
+}
+
+.chapter p:last-of-type {
+	padding-bottom: 0;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	gap: 33px;
+	background-image: url("../images/bg-picture.svg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 935px 150px;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+aside {
+	width: 385px;
+	margin-left: 11px;
+	margin-top: 11px;
+}
+
+aside h2 {
+	border-bottom: 1px solid #BDBDBD;
+	padding-bottom: 10px;
+	margin-bottom: 69px;
+}
+
+article {
+	width: 815px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p.first_pb {
+	padding-bottom: 32px;
+	margin-top: -6px;
+}
+
+p.second_pb {
+	padding-bottom: 40px;
+}
+
+p.third_pb {
+	margin-top: 1px;
+	margin-bottom: 10px;
+}
+
+p.four_pb {
+	margin-top: 6px;
+}
+
+.gray_bg {
+	background-color: #C9C9C9;
+}
+
+.pizza {
+	transform: scale(-1, 1);
+	display: inline-block;
+}
+
+.black_border {
+	width: 100px;
+	height: 8px;
+	background: #000000;
+	margin-bottom: 20px;
+}

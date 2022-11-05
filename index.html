@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,63 @@
 	<title>Document</title>
 	<style>
 		body {
-		background-image: url(http://wallpapers.net/web/wallpapers/funny-cat-hd-wallpaper/2560x1440.jpg);
+			background-image: url(http://wallpapers.net/web/wallpapers/funny-cat-hd-wallpaper/2560x1440.jpg);
+			background-size: 100%;
 		}
-		</style>
+
+		h1 {
+			text-align: center;
+		}
+
+		ul {
+			font-size: 24px;
+		}
+
+		li {
+			list-style: square;
+			padding: 5px;
+		}
+
+		a {
+			text-decoration: none;
+			color: rgb(91, 29, 29);
+		}
+
+		.section ul {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			grid-template-rows: repeat(5, 1fr);
+			grid-column-gap: 0px;
+			grid-row-gap: 0px;
+			height: 70vh;
+		}
+	</style>
 </head>
+
 <body>
 	<h1>My home works</h1>
+	<div class="section">
 		<ul>
-
-			<li><a href="Lesson2/index.html">Lesson2</a></li>
-			<li><a href="Lesson3/index.html">Lesson3</a></li>
-			<li><a href="Lesson5/index.html">Lesson5</a></li>
-			<li><a href="Lesson6/index.html">Lesson6</a></li>
-			<li><a href="Lesson8/index.html">Lesson8</a></li>
-			<li><a href="Lesson9/index.html">Lesson9</a></li>
-			<li><a href="Lesson9_extra/index.html">Lesson9(extra)</a></li>
-			<li><a href="Lesson12/index.html">Lesson12</a></li>
-			<li><a href="Lesson13/index.html">Lesson13</a></li>
-			<li><a href="Lesson14/index.html">Lesson14</a></li>
+			<div class="div1">
+				<li><a href="Lesson2/index.html">Lesson2</a></li>
+				<li><a href="Lesson3/index.html">Lesson3</a></li>
+				<li><a href="Lesson5/index.html">Lesson5</a></li>
+				<li><a href="Lesson6/index.html">Lesson6</a></li>
+				<li><a href="Lesson8/index.html">Lesson8</a></li>
+			</div>
+			<div class="div2">
+				<li><a href="Lesson9/index.html">Lesson9</a></li>
+				<li><a href="Lesson9_extra/index.html">Lesson9(extra)</a></li>
+				<li><a href="Lesson12/index.html">Lesson12</a></li>
+				<li><a href="Lesson13/index.html">Lesson13</a></li>
+				<li><a href="Lesson14/index.html">Lesson14</a></li>
+			</div>
+			<div class="div3">
 			<li><a href="Lesson15/index.html">Lesson15</a></li>
 			<li><a href="Lesson16/title.html">Lesson16</a></li>
+		</div>
 		</ul>
+	</div>
 </body>
+
 </html>

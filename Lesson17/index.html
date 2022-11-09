@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/awesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+	<form method="post" action="#">
+		<div class="container">
+
+			<div class="wrap_inner">
+
+				<div class="card_block">
+					<div class="left">
+					<h1>Create an Account</h1>
+					<div class="name_info">
+						<label for="first_name">First Name
+							<input type="text" name="first_name" id="first_name" required>
+						</label>
+						<label for="last_name"> Last Name
+							<input type="text" name="last_name" id="last_name" required>
+						</label>
+					</div>
+
+					<div class="email_info">
+						<label for="email">E-mail</label>
+							<input type="email" class="wide_form" name="email" id="email" required>
+							<p>We'll never share your email with anyone else.</p>
+						
+					</div>
+
+					<div class="gender">
+							<input type="radio" name="gender" id="male" value="man" checked required>
+							<label for="male">Male</label>
+							<input type="radio" name="gender" id="female" value="female" required>
+							<label for="female">Female</label>
+					</div>
+
+					<div class="adress">
+
+						<div class="countries">
+							<label>Country</label>
+							<select name="country" id="country" required >
+								<option value="">Select</option>
+								<option value="a">Australia</option>
+								<option value="b">Brazilie</option>
+								<option value="c">Canada</option>
+							</select>
+						</div>
+
+						<div class="cities">
+							<label for="city">City
+								<input type="text" name="city" id="city" required>
+							</label>
+						</div>
+
+					</div>
+
+					<div class="buttons">
+						<button class="btn wide_form">Sign Up</button>
+						<p>By clicking the 'Sign Up' button, you confirm that you accept our
+						<a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>        
+					</div>
+
+					<footer class="footer"><span>Have an account? <a href="#">Log In</a> </span></footer>
+				</div>
+			</div>
+
+			
+				<div class="card_block right">
+					<h1>Profile</h1>
+					<div class="avatar">
+						<img src="assets/images/Image.jpg" alt="">
+						<div class="buttons_file">
+							<label for="file-upload" class="custom-file-upload">
+								<i class="fa fa-camera"></i>
+						</label>
+						<input id="file-upload" type="file">
+						</div>
+						
+					</div>
+					<label for="file-reset" class="custom-file-reset">
+						<i class="fa-solid fa-trash"></i>
+				</label>
+				<input id="file-reset" type="reset">
+
+
+
+					<div class="name_info">
+						<label for="first_name">Name
+							<input type="text" name="first_name" id="first_name" required>
+						</label>
+						<label for="email_info">Email
+							<input type="email" name="email_info" id="email_info" required>
+						</label>
+					</div>
+
+					<div class="adress">
+
+						<div class="countries">
+							<label>Country</label>
+							<select name="country" id="country" required >
+								<option value="">Select</option>
+								<option value="a">Australia</option>
+								<option value="b">Brazilie</option>
+								<option value="c">Canada</option>
+							</select>
+						</div>
+
+						<div class="cities">
+							<label for="city">City
+								<input type="text" name="city" id="city" required>
+							</label>
+						</div>
+					</div>
+					<div class="name_info">
+						<label for="first_name">Name
+							<input type="text" name="first_name" id="first_name" required>
+						</label>
+						<label for="last_name">Email
+							<input type="text" name="last_name" id="last_name" required>
+						</label>
+					</div>
+					<div class="buttons">
+						<button class="btn slim_form">Update</button>  
+					</div>
+				</div>
+				
+				
+
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>

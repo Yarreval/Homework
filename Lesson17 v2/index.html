@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/awesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="wrap">
+
+			<h1>Create an Account</h1>
+
+			<form method="post" action="#">
+				<div class="form_wrap">
+					<div class="name_wrap">
+						<div class="names">
+							<label for="first_name">First Name</label>
+							<input type="text" name="first_name" id="first_name" required>
+						</div>
+						<div class="names">
+							<label for="last_name">Last Name</label>
+							<input type="text" name="last_name" id="last_name" required>
+						</div>
+					</div>
+					<div class="email_wrap">
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" required>
+						<h2>We'll never share your email with anyone else.</h2>
+					</div>
+					<div class="radio_gender">
+						<input type="radio" name="gender" value="male" id="male" checked required>
+						<label for="male">Male</label>
+						<input type="radio" name="gender" value="female" id="female">
+						<label for="female">Female</label>
+					</div>
+					<div class="country_city">
+						<div class="country">
+							<label for="country">Country</label>
+							<select name="country" id="country" required>
+								<option></option>
+								<option value="A">Australia</option>
+								<option value="B">Brazilia</option>
+								<option value="C">Canada</option>
+							</select>
+						</div>
+						<div class="city">
+							<label for="city">City</label>
+							<input type="text" name="city" id="city" required>
+						</div>
+					</div>
+
+				</div>
+				<button class="btn" type="submit">Sign Up</button>
+			</form>
+			<footer class="footer">
+				<p>By clicking the 'Sign Up' button, you confirm that you accept our <br> <a href="#">Terms of Use</a> and <a
+						href="#">Privacy Policy.</a></p>
+
+				<h3>Have an account? <a href="#" class="login">Log In</a></h3>
+
+			</footer>
+		</div>
+
+		<div class="wrap">
+			<h1>Profile</h1>
+			<form method="post" action="#">
+				<div class="form_wrap">
+
+					<div class="first">
+						<div class="avatar">
+							<img src="assets/images/Image.jpg" alt="nigga">
+							<div class="buttons_file">
+
+								<label for="file-upload" class="custom-file-upload">
+									<i class="fa fa-camera"></i>
+								</label>
+								<input id="file-upload" type="file">
+								<label for="file-reset" class="custom-file-reset">
+									<i class="fa-solid fa-trash"></i>
+								</label>
+								<input id="file-reset" type="reset">
+							</div>
+							<span>Up to 1 MB (300x300 px)</span>
+						</div>
+
+
+
+					</div>
+
+					<div class="names_flex">
+						<div class="names">
+							<label for="profile_name">Name</label>
+							<input type="text" name="profile_name" id="profile_name" required>
+						</div>
+						<div class="names">
+							<label for="profile_email">E-mail</label>
+							<input type="email" name="email" id="profile_email" required>
+						</div>
+					</div>
+					<div class="names_flex">
+						<div class="names">
+							<div class="country">
+								<label for="profile_country">Country</label>
+								<select name="profile_country" id="profile_country" required>
+									<option></option>
+									<option value="A">Australia</option>
+									<option value="B">Brazilia</option>
+									<option value="C">Canada</option>
+								</select>
+							</div>
+						</div>
+						<div class="names">
+							<div class="city">
+								<label for="profile_city">City</label>
+								<input type="text" name="profile_city" id="profile_city" required>
+							</div>
+						</div>
+					</div>
+					<div class="names_flex">
+						<div class="city">
+							<label for="zipcode">Zip Code</label>
+							<input type="text" pattern="[0-9]{5}" name="zipcode" id="zipcode" required>
+						</div>
+						<div class="city telephone_number">
+							<label for="phone_number">Phone Number</label>
+							<input type="tel" name="phone_number" id="phone_number" required>
+						</div>
+					</div>
+				</div>
+				<div class="update_button">
+					<button type="submit" class="btn">Update</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>

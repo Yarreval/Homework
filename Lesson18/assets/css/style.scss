@@ -1,5 +1,15 @@
 $base-size: 16;
 
+@mixin paragraph {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
 @mixin fz($size_px) {
   font-size: ($size_px / $base-size) * 1rem;
 }
@@ -17,7 +27,7 @@ body {
 }
 
 body {
-  @include fz(16);
+  @include fz(17);
   font-family: 'Lato', sans-serif;
   color: #000;
 }
@@ -41,15 +51,52 @@ li {
   list-style: none;
 }
 
-header {
+.container {
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
+}
 
+p {
+  @include paragraph
+}
+
+.view {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.arrow {
+  display: block;
+  font-size: 28px;
+  position: relative;
+  top: -27px;
+  left: 187px;
+
+  &:hover {
+    color: rgb(226, 243, 168);
+  }
+}
+
+.par_title {
+  @include paragraph;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.bottom {
+  margin-bottom: 48px;
+}
+
+header {
   .header {
     display: flex;
     justify-content: space-between;
-
     padding: 44px 0;
   }
 
@@ -66,7 +113,7 @@ header {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 16px;
         letter-spacing: 0.3em;
         text-transform: uppercase;
         color: #000;
@@ -92,37 +139,186 @@ header {
 
     .search {
       padding-left: 80px;
+
+      a:hover {
+        color: rgb(226, 243, 168);
+      }
     }
   }
 }
 
-.container {
+.container_inner {
   width: 90%;
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto 90px;
+
+  .bg_header {
+    background-image: url(../images/bg-image.jpg);
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+
+    h1 {
+      display: inline-block;
+      font-family: 'Red Hat Display', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 64px;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      position: absolute;
+      top: 96px;
+      left: 173px;
+      letter-spacing: 0.05em;
+    }
+  }
 }
 
-.bg_header {
-  background-image: url(../images/bg-image.jpg) ;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+.blog {
+  margin-top: 686px;
 
-  width: 1440px;
-  height: 600px;
-  
+  h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+
+  .item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  img {
+    width: 570px;
+    height: 470px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+    margin-bottom: 89px;
+  }
+
+  .descroption {
+    width: 450px;
+    height: 300px;
+    margin-top: 85px;
+
+    h4 {
+      margin: 22px 0 9px;
+      font-family: 'Red Hat Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 166%;
+      letter-spacing: 0.1em;
+      color: #000000;
+    }
+  }
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 
+  img {
+    width: 370px;
+    height: 260px;
+    margin-bottom: 24px;
+  }
 
-  h1 {
+  .card {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+.card_hor {
+  display: flex;
+  flex-direction: column;
+
+  .par_title {
+    @include paragraph;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  h4 {
     font-family: 'Red Hat Display', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 64px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: absolute;
-    top: 105px;
-    left: 135px;
-    letter-spacing: 0.05em;
+    font-size: 22px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 16px;
   }
+
+  .par_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -24px;
+  }
+}
+
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+
+  p {
+    display: block;
+    position: relative;
+    top: 6px;
+    left: -43px;
+
+    .arr_sm {
+      left: 85px;
+          top: -31px;
+    }
+  }
+}
+
+// START RESPONSIVE
+
+@media screen and (max-width: 1280px) {
+header .navigation ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+header .navigation .search {
+  padding-left: 40px;
+}
+.posts {
+  display: flex;
+  flex-direction: row;
+}
+}
+@media screen and (max-width: 768px) {
+  
 }

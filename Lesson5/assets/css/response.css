@@ -1,0 +1,36 @@
+@media screen and (max-width: 1077px) {
+	img {
+		width: 100%;
+		height: auto;
+	}
+.skills_list {
+	display: flex;
+	justify-content: space-between;
+}
+}
+
+@media screen and (max-width: 700px) {
+	img {
+		width: 100%;
+		height: auto;
+	}
+	}
+	
+
+	/* @media screen and (max-width: 480px) {
+	.header_inner ul li{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+		} */
+
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 36px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	}

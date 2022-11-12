@@ -46,9 +46,9 @@
 					</div>
 					<div class="country_city">
 						<div class="country">
-							<label for="country">Country</label>
+							<label for="country" required>Country</label>
 							<select name="country" id="country" required>
-								<option></option>
+								<option selected="true" disabled="disabled">Selected</option>
 								<option value="A">Australia</option>
 								<option value="B">Brazilia</option>
 								<option value="C">Canada</option>
@@ -88,8 +88,9 @@
 								<input id="file-upload" type="file">
 								<label for="file-reset" class="custom-file-reset">
 									<i class="fa-solid fa-trash"></i>
+									<input id="file-reset" type="reset">
 								</label>
-								<input id="file-reset" type="reset">
+								
 							</div>
 							<span>Up to 1 MB (300x300 px)</span>
 						</div>
@@ -113,7 +114,7 @@
 							<div class="country">
 								<label for="profile_country">Country</label>
 								<select name="profile_country" id="profile_country" required>
-									<option></option>
+									<option selected="true" disabled="disabled">Select</option>
 									<option value="A">Australia</option>
 									<option value="B">Brazilia</option>
 									<option value="C">Canada</option>

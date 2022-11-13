@@ -1,0 +1,188 @@
+@mixin font_style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133D;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  @include font_style;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+
+a,
+button {
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 22.5px 0;
+
+  img {
+    width: 200px;
+    height: 35px;
+  }
+}
+
+main {
+  margin: 100px auto;
+
+  .description {
+    p {
+      @include font_style;
+      line-height: 21px;
+      color: #7690A8;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: 0.2px;
+      color: #16133D;
+      margin-bottom: 33px;
+    }
+  }
+
+  .card {
+    // width: 370px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    .card_inner {
+      width: 370px;
+      padding: 40px;
+      border: 1px solid #E5EAF4;
+      border-radius: 8px;
+
+      .logo_inner {
+        display: flex;
+        width: 64px;
+        height: 64px;
+        border: 1px solid rgba(21, 101, 216, 0.1);
+        border-radius: 16px;
+        margin-bottom: 31px;
+
+        svg {
+          margin: 13px 12px;
+
+        }
+
+        #phone_icon {
+          margin: 13px 19px;
+        }
+      }
+
+      &:hover,
+      &:hover .logo_inner {
+        border: 1px solid #3DB370;
+      }
+
+      h2 {
+        @include font_style;
+        font-size: 24px;
+        line-height: 21px;
+        letter-spacing: 0.2px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        @include font_style;
+        margin-bottom: 22px;
+        margin-top: -2px;
+      }
+
+      a {
+        @include font_style;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3DB370;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background: #16133D;
+
+  .footer_logo {
+    padding-top: 40px;
+
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.footer_social {
+  align-self: center;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  padding-bottom: 35px;
+  
+  .fa-instagram,
+  .fa-facebook-f,
+  .fa-dribbble,
+  .fa-github,
+  .fa-twitter {
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0D0D0D;
+    border-radius: 5px;
+    color: #0D0D0D;
+    background-color: #EFEEF3;
+  
+    &:hover {
+      color: #3DB370;
+    }
+  }
+}
+
